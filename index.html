@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy food</title>
+  <!-- Linl to css -->
+  <!-- <link rel="stylesheet" href="css/main.css"> -->
+
+  <script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+
+
+  <!-- Box Icons -->
+  <link rel="stylesheet" 
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <a href="#" class="logo">
+      <img src="img/logo.svg" alt="">
+    </a>
+
+    <!-- Menu Icon -->
+    <i class='bx bxs-food-menu' id="menu-icon"></i>
+    <!-- Links -->
+    <ui class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#Products">Products</a></li>
+      <li><a href="#Gallary">Gallary</a></li>
+      <li><a href="#customers">Customers</a></li>
+    </ui>
+    <!-- Icon -->
+    <div class="header-icon">
+      <i class='bx bxs-cart-alt' ></i>
+      <i class='bx bx-search-alt' id="search-icon"></i>
+    </div>
+    <!-- Search Box -->
+    <div class="search-box">
+      <input type="search" name="" id="" placeholder="Search here...">
+    </div>
+  </header>
+  
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Start your day <br> with healthy food</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut incidunt sed mollitia, nemo nobis corporis ullam eos quia itaque magnam architecto deserunt exercitationem at! Minima repudiandae maxime modi facilis at?</p>
+      <a href="#" class="btn">Shop now</a>
+    </div>
+    <div class="home-img">
+      <img src="img/img1.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="img/image1.jpg" alt="">
+    </div>
+    <div class="about-text">
+      <h2>Our History</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio officia quasi architecto blanditiis voluptatum velit iste hic vitae error quaerat cumque, quam sit aperiam veniam maxime est deleniti quia delectus.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti doloremque rem soluta consequuntur quam iure! Neque dolorem non accusantium, amet voluptates laborum consectetur sequi tempore est ad sapiente doloremque.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloribus earum aliquid numquam non possimus dolorem soluta molestiae esse, odit inventore ullam. Sequi temporibus, dicta doloremque fuga ab debitis soluta.</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="Products" id="Products">
+    <div class="heading">
+      <h2>Our popular products</h2>
+    </div>
+
+    <!-- Container -->
+    <div class="products-container">
+
+      <div class="box">
+        <img src="img/food 2.webp" alt="">
+        <h3> Чаша поке с тофу понзу </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Используйте шелковистый тофу, чтобы приготовить эту ароматную поке-боул. Это похоже на японское блюдо под названием «хияякко», которое обычно едят в разгар лета.</p>
+        <div class="content">
+          <span>5500тг</span>
+          <h1>Kall:<b>462</b></h1>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/food 3.webp" alt="">
+        <h3> Полезные яйца песто на тосте </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Попробуйте быстрый нежирный песто в качестве вкусной альтернативы маслу для жарки яиц-оно также придает блюду великолепный вкус и делает его идеальным поздним завтраком или обедом</p>
+        <div class="content">
+          <span>4 990тг</span>
+          <h2>Kall:<b>287</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/food 6.webp" alt="">
+        <h3> Чаша буррито с черной фасолью чипотле </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Эта полезная миска буррито, наполненная овощами и зеленью, идеально подходит для сытного обеда. Это вегетарианское блюдо, которое на вкус так же хорошо, как и выглядит.</p>
+        <div class="content">
+          <span>5790 тг</span>
+          <h2>Kall:<b>573</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/juice 5.webp" alt="">
+        <h3> Смузи на завтрак </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Получите максимум удовольствия от ягодного сезона с бокалом фруктового вкуса.</p>
+        <div class="content">
+          <span>2 200тг</span>
+          <h2>Kall:<b>124</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/juice 6.webp" alt="">
+        <h3> клубничный смузи </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Получите фруктовый вкус с нашим клубничным смузи, приготовленным из банана и апельсинового сока. В нем нет молочных продуктов, поэтому он также веганский, что делает его отличным началом любого дня.</p>
+        <div class="content">
+          <span>2 000тг</span>
+          <h2>Kall:<b>170</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/juice 7.webp" alt="">
+        <h3> Глинтвейн из гранатового сока </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Позаботьтесь обо всех гостях вашей вечеринки, включая тех, кто не пьет, с помощью этого простого безалкогольного фруктового сока с рождественскими пряностями, который подается теплым.</p>
+        <div class="content">
+          <span>1 500тг</span>
+          <h2>Kall:<b>287</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/dessert 1.jpeg" alt="">
+        <h3> Шоколадное овсяное печенье без выпечки </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Хотя в этом печенье еще есть сахар и шоколад, помните, что их получается три дюжины, поэтому наслаждайтесь в меру.</p>
+        <div class="content">
+          <span>4 990тг</span>
+          <h2>Kall:<b>388</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/dessert 3.jpeg" alt="">
+        <h3> Овсянка с ореховым брауни </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Этот рецепт здорового завтрака, безусловно, может превратиться в восхитительный десерт. Он нежный, шоколадный и украшен взбитыми сливками!</p>
+        <div class="content">
+          <span>3 990тг</span>
+          <h2>Kall:<b>290</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/dessert 4.jpeg" alt="">
+        <h3> Запеченные яблоки </h3>
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Это самый простой способ съедать яблоко в день! Вы получите весь вкус яблочного пирога без маслянистой корочки.</p>
+        <div class="content">
+          <span>3 990тг</span>
+          <h2>Kall:<b>287</b></h2>
+          <a href="#">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="Gallary" id="Gallary">
+    <div class="heading">
+      <h2>Our Gallary</h2>
+      <div class="box">
+        <div class="gallaty_img">
+          <img src="img/food 5.webp">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="gallaty_img">
+          <img src="img/dessert 8.jpg">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="gallaty_img">
+          <img src="img/juice 8.webp">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="gallaty_img">
+          <img src="img/juice 1.webp">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="gallaty_img">
+          <img src="img/dessert 9.jpeg">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+        <div class="gallaty_img">
+          <img src="img/food 7.webp">
+
+          <h3>Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ipsum. Dicta qui consequatur libero, corrupti labore veritatis quia dolorum perferendis aut tenetur ipsa omnis unde in voluptas animi, commodi beatae!
+          </p>
+          <a href="#" class="btn">Order now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Customer -->
+  <section class="customers" id="customers">
+    <div class="heading">
+      <h2>Our customer's</h2>
+      <br>
+    </div>
+
+    <!-- Container  -->
+    <div class="customer-container">
+      <div class="box">
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A et laudantium facilis nihil deleniti libero?</p>
+        <h2>Yasin Arafat</h2>
+        <img src="img/user6.jpg" alt="">
+      </div>
+
+      <div class="box">
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A et laudantium facilis nihil deleniti libero?</p>
+        <h2>Yasin Arafat</h2>
+        <img src="img/user 5.jpg" alt="">
+      </div>
+
+      <div class="box">
+        <div class="stars">
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star'></i>
+          <i class='bx bxs-star-half'></i>
+        </div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A et laudantium facilis nihil deleniti libero?</p>
+        <h2>Yasin Arafat</h2>
+        <img src="img/user 3.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Order -->
+  <section class="order">
+    <h1>Order Now</h1>
+
+    <div class="main">
+
+      <div class="box">
+        <img src="img/order 2.jpg">
+      </div>
+  
+      <form action="input">
+  
+        <div class="input">
+          <p>Name</p>
+          <input type="text" placeholder="you name">
+        </div>
+  
+        <div class="input">
+          <p>Email</p>
+          <input type="email" placeholder="you email">
+        </div>
+  
+        <div class="input">
+          <p>Number</p>
+          <input placeholder="you number">
+        </div>
+  
+        <div class="input">
+          <p>how Much</p>
+          <input type="number" placeholder="how many order">
+        </div>
+  
+        <div class="input">
+          <p>You Order</p>
+          <input placeholder="food name">
+        </div>
+  
+        <div class="input">
+          <p>Address</p>
+          <input placeholder="you Address">
+        </div>
+  
+        <a href="#" class="btn">Order Now</a>
+    </div>
+
+    </form>
+  </section>
+
+  <!-- Team -->
+  <section class="team">
+    <h1>Our Team</h1>
+
+    <div class="box">
+
+      <div class="profile">
+        <img src="img/photo2.jpg">
+
+        <div class="info">
+          <h2 class="name">Khuzhan Dilnaz</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="icon">
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="img/photo1.jpg">
+
+        <div class="info">
+          <h2 class="name">Magauiyakyzy <br> Shugyla</h2>
+          <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div class="icon">
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+<!-- footer -->
+  <section class="footer">
+    <div class="footer-box">
+      <h2>Diet Food</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, molestias.</p>
+      <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-tiktok'></i></a>
+      </div>
+    </div>
+
+    <div class="footer-box">
+      <h3>Support</h3>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Help & Support</a></li>
+      <li><a href="#">Return Policy</a></li>
+      <li><a href="#">Terms Of Use</a></li>
+      <li><a href="#">Product</a></li>
+    </div>
+
+    <div class="footer-box">
+      <h3>View Guides</h3>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Blog Posts</a></li>
+      <li><a href="#">Our Branches</a></li>
+    </div>
+
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <div class="contact">
+        <span><i class='bx bxs-map'></i>Zhandosova 55</span>
+        <span><i class='bx bxs-phone'></i>+ 7747 366 44 05</span>
+        <span><i class='bx bxs-envelope'></i>healthyFood@shop.com</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p>Magauiyakyzy Shugyla , Khuzhan Dilnaz</p>
+  </div>
+
+  
+  <!-- Linl to js
+  <script src="app.js"></script> -->
+</body>
+</html>
